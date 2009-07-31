@@ -1,0 +1,18 @@
+Piedit is a Graphical IDE and integrated interpreter for the Piet programming language.
+
+Piet is an esoteric programming language inspired by Piet Mondrian, where the programs look like abstract art. The colours and arrangement of the pixels control the program flow and operation. For a more detailed explanation, see the Piet Homepage.
+
+Written in Python with a GTK interface designed in Glade.
+
+Features
+
+    * Create, edit and save Piet programs easily using the UI
+    * Run programs using the command line interpreter
+    * Step through/run programs in the UI
+    * There seemed like a lot more features when I was writing it! 
+
+Requirements
+
+    * Python (with PIL)
+    * GTK+ 2.0
+    * PyGTK bindings 
