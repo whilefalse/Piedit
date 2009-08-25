@@ -24,7 +24,7 @@ def print_usage():
     print "Usage: interpreter.py image"
         
 
-class Interpreter(object):
+class Interpreter:
     """The Piet interpreter class"""
     def __init__(self):
         """Sets up object properties"""
@@ -414,7 +414,7 @@ class Interpreter(object):
             sys.stdout.write(chr(item))
         
     
-class ErrorHandler(object):
+class ErrorHandler:
     """Class that handles errors for the interpreter. Does it differently
     for UI and command line modes"""
     

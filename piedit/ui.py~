@@ -42,7 +42,7 @@ class InterpreterThread(threading.Thread):
     def stop(self):
         self.should_stop = True
         
-class Handlers(object):
+class Handlers:
     """Defines the signal handlers for the ui"""
     
     def __init__(self,ui):
@@ -232,7 +232,7 @@ class Handlers(object):
         self._ui.decrease_height()
              
       
-class UI(object):
+class UI:
     """Wrapper class for the UI. Provides functions to do things in the UI"""
 
     def __init__(self,gladeui):
@@ -507,7 +507,7 @@ class UI(object):
             self.draw_program_table()
 
     
-class MessageHandler(object):
+class MessageHandler:
     """Class to handle errors and display them to the user"""
     def __init__(self,ui):
         """Sets up error messages"""

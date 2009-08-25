@@ -22,7 +22,7 @@ __email__ = "steven.james.anderson@googlemail.com"
 __status__ = "Production"
 
 
-class Interpreter(object):
+class Interpreter:
     """The Piet interpreter class"""
     def __init__(self, max_steps=1000000, thread=None):
         """Initalizes new Interpreter."""
@@ -482,7 +482,7 @@ class Interpreter(object):
             sys.stdout.flush()
     
     
-class ColorBlock(object):
+class ColorBlock:
     """Class that represents a color block in a Piet program."""
     def __init__(self,size):
         """Initializes new ColorBlock."""
@@ -525,7 +525,7 @@ class ColorBlock(object):
             self.boundary_pixels[3][1] = pixel
                 
              
-class Pixel(object):
+class Pixel:
     """Class that represents a pixel in a Piet program (stricly a codel, but 
     the convention is 1 pixel per codel."""
     
@@ -539,7 +539,7 @@ class Pixel(object):
         self.set_label = -1
         
     
-class ErrorHandler(object):
+class ErrorHandler:
     """Class that handles errors for the interpreter. Does it differently
     for UI and command line modes."""
     
