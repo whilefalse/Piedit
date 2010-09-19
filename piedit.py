@@ -30,7 +30,7 @@ class Program:
     def __init__(self):
         """Loads the glade XML and creates the ui object"""
         gnome.init("Piedit", "0.1")
-        gladeui = gtk.glade.XML(os.path.dirname(sys.argv[0])+"/glade/piedit.glade")
+        gladeui = gtk.glade.XML(os.path.join('glade', 'piedit.glade'))
         ui = piedit.ui.UI(gladeui)
         
 class GuiThread(threading.Thread):
