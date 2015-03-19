@@ -5,7 +5,6 @@ imported and used by the GUI."""
 
 import sys
 import getopt
-import gtk
 import PIL.Image
 import colors
 import unionfind
