@@ -1,6 +1,5 @@
 """Class to access information about piet colors"""
 import sys
-import gtk
 
 __author__ = "Steven Anderson"
 __copyright__ = "Steven Anderson 2008"
